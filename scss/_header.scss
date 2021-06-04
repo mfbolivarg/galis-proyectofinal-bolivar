@@ -1,0 +1,15 @@
+/* header */
+header{
+	nav{
+		font-family: $tipografiaTitulos;
+		a{
+			img{
+				height: 10vh;
+				&:hover{
+					transform:scale(1.03,1.03);
+					transition: 0.5s;
+				}
+			}
+		}
+	}
+}

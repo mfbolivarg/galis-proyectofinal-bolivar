@@ -1,0 +1,22 @@
+/* footer */
+footer{
+	background-color: $colorFooter;
+	height: 10vh;
+	section{
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img{
+			margin:5px;
+			&:hover{
+				transform:scale(1.02,1.02);
+				transition: 0.5s;
+			}
+		}			
+	}
+}
+
+.footer--background{
+	background-color: #EDF2DA;
+}

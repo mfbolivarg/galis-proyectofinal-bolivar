@@ -1,0 +1,49 @@
+/* titulos */
+h1, h2,{
+	font-family: $tipografiaTitulos;
+	font-size: 1.2em;
+	text-align: left;
+}
+h3{
+	font-family: $tipografiaTitulos;
+	font-size: 1.4em;
+	text-transform: capitalize;
+	text-align: left;
+	font-weight: 600;
+	color: $colorFooter
+}
+
+/* decoracion de parrafos */
+.decoration__p{
+	font-family: $tipografiaTitulos;
+	font-weight: 600;
+	font-size: 1.2em;
+	color: $colorFooter;
+	text-transform: capitalize;
+}
+
+/* pagina error 404 */
+.bg--error404{
+	background-image: url(../recursos/error404sm.gif);
+	background-size: cover;
+	height: 100vh;
+}
+.heigth--100{
+	height: 100vh;
+}
+
+@media only screen and (min-width: 1200px){
+	.bg--error404{
+		background-image: url(../recursos/error404xl.gif);
+		background-size: cover;
+		height: 100vh;
+	}
+}
+
+
+.btn--position{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
