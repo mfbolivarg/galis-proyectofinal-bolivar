@@ -1,3 +1,14 @@
+/*index*/
+.index__main--height{
+	height: 79vh;
+}
+
+@media only screen and (min-width: 351px){
+	.index__main--height{
+		height: auto;
+	}
+}
+
 /* titulos */
 h1, h2,{
 	font-family: $tipografiaTitulos;
@@ -32,6 +43,15 @@ h3{
 	height: 100vh;
 }
 
+.btn--position{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.footer--background{
+	background-color: #EDF2DA;
+}
+
 @media only screen and (min-width: 1200px){
 	.bg--error404{
 		background-image: url(../recursos/error404xl.gif);
@@ -41,9 +61,5 @@ h3{
 }
 
 
-.btn--position{
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-}
+
 
