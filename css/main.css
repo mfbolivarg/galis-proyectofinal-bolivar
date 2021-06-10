@@ -7,13 +7,27 @@
 /* variables */
 /* imports */
 /* header */
-header nav {
-  font-family: "Spectral", serif; }
+header {
+  width: 100vw; }
+  header nav {
+    font-family: "Spectral", serif; }
+    header nav a img {
+      height: 6vh; }
+      header nav a img:hover {
+        transform: scale(1.03, 1.03);
+        transition: 0.5s; }
+
+@media only screen and (min-width: 450px) {
   header nav a img {
-    height: 6vh; }
-    header nav a img:hover {
-      transform: scale(1.03, 1.03);
-      transition: 0.5s; }
+    height: 7vh; } }
+
+@media only screen and (min-width: 600px) {
+  header nav a img {
+    height: 9vh; } }
+
+@media only screen and (min-width: 1200px) {
+  header nav a img {
+    height: 10vh; } }
 
 /* index productos */
 main section a {
@@ -21,47 +35,20 @@ main section a {
   color: black;
   text-transform: none; }
 
-.products {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  justify-items: center;
-  align-items: center;
-  margin: 20px; }
+.main__productos--height {
+  height: auto; }
 
-.products__image--size {
-  width: 45vw;
-  border-radius: 10px; }
-  .products__image--size:hover {
-    transform: scale(1.02, 1.02);
-    transition: 0.5s; }
+@media only screen and (min-width: 1000px) {
+  .main__productos--height {
+    height: 76vh; } }
 
-.products__paragraph--boxmodeling {
-  font-family: "Karla", sans-serif;
-  font-size: 1em;
-  text-align: center;
-  text-transform: capitalize; }
+.card__productos--animaocion:hover {
+  transform: scale(1.01, 1.01);
+  transition: 0.5s; }
 
-@media only screen and (min-width: 770px) {
-  .products {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr); }
-  .products__image--size {
-    width: 30vw; } }
-
-@media only screen and (min-width: 1200px) {
-  .products {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr); }
-  .products__image--size {
-    width: 18vw; } }
-
-/*  */
 /*index*/
 .index__main--height {
-  height: 79vh; }
+  height: 85vh; }
 
 @media only screen and (min-width: 351px) {
   .index__main--height {

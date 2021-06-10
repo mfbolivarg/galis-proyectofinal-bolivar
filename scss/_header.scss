@@ -1,5 +1,6 @@
 /* header */
 header{
+	width: 100vw;
 	nav{
 		font-family: $tipografiaTitulos;
 		a{
@@ -13,7 +14,36 @@ header{
 		}
 	}
 }
-@media only screen and(min-width: 480px){
-	
+@media only screen and(min-width: 450px){
+	header{
+		nav{
+			a{
+				img{
+					height: 7vh;
+				}
+			}
+		}
+	}
 }
-
+@media only screen and(min-width: 600px){
+	header{
+		nav{
+			a{
+				img{
+					height: 9vh;
+				}
+			}
+		}
+	}
+}
+@media only screen and(min-width: 1200px){
+	header{
+		nav{
+			a{
+				img{
+					height: 10vh;
+				}
+			}
+		}
+	}
+}

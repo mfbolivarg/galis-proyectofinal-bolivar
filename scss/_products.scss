@@ -8,49 +8,17 @@ main{
 			}
 	}
 } 
-.products{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(5, 1fr);
-	grid-column-gap: 10px;
-	grid-row-gap: 10px;
-	justify-items: center;
-	align-items: center;
-	margin: 20px;
-}
-.products__image--size{
-	width: 45vw;
-	border-radius: 10px;
-	&:hover{
-		transform: scale(1.02,1.02);
-		transition: 0.5s;
-	} 
-}
-.products__paragraph--boxmodeling{
-	font-family: $tipografiaCuerpo;
-	font-size: 1em;
-	text-align: center;
-	text-transform: capitalize;
+.main__productos--height{
+	height: auto;
 }
 
-@media only screen and (min-width: 770px){
-	.products{
-		grid-template-columns: repeat(3,1fr);
-		grid-template-rows: repeat(4, 1fr);
-	}
-	.products__image--size{
-		width: 30vw;
+@media only screen and(min-width: 1000px){
+	.main__productos--height{
+		height: 76vh;
 	}
 }
 
-@media only screen and (min-width: 1200px){
-	.products{
-		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(3, 1fr);
-	}
-	.products__image--size{
-		width: 18vw;
-	}
+.card__productos--animaocion:hover{
+	transform: scale(1.01,1.01);
+	transition: 0.5s;
 }
-
-/*  */
