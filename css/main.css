@@ -11,23 +11,24 @@ header {
   width: 100vw; }
   header nav {
     font-family: "Spectral", serif; }
-    header nav a img {
-      height: 6vh; }
-      header nav a img:hover {
-        transform: scale(1.03, 1.03);
-        transition: 0.5s; }
+    header nav a img:hover {
+      transform: scale(1.03, 1.03);
+      transition: 0.5s; }
+
+.logo--size {
+  height: 5vh; }
 
 @media only screen and (min-width: 450px) {
-  header nav a img {
-    height: 7vh; } }
+  .logo--size {
+    height: 6vh; } }
 
 @media only screen and (min-width: 600px) {
-  header nav a img {
-    height: 9vh; } }
+  .logo--size {
+    height: 7vh; } }
 
 @media only screen and (min-width: 1200px) {
-  header nav a img {
-    height: 10vh; } }
+  .logo--size {
+    height: 8vh; } }
 
 /* index productos */
 main section a {
@@ -48,7 +49,7 @@ main section a {
 
 /*index*/
 .index__main--height {
-  height: 85vh; }
+  height: 88vh; }
 
 @media only screen and (min-width: 351px) {
   .index__main--height {
