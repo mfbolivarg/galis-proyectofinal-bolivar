@@ -49,11 +49,14 @@ main section a {
 
 /*index*/
 .index__main--height {
-  height: 88vh; }
+  height: 86vh; }
 
-@media only screen and (min-width: 351px) {
+@media only screen and (min-width: 410px) {
   .index__main--height {
     height: auto; } }
+
+.index__carrousel--margin {
+  margin: 10px 20px; }
 
 /* titulos */
 h1, h2 {
