@@ -1,24 +1,38 @@
-/* index productos */
-main{
-	section{
-			a{
-				text-decoration: none;
-				color: black;
-				text-transform: none;
-			}
-	}
-} 
+/* index productos */ 
 .main__productos--height{
 	height: auto;
 }
 
 @media only screen and(min-width: 1000px){
 	.main__productos--height{
-		height: 76vh;
+		height: 80vh;
 	}
 }
 
 .card__productos--animaocion:hover{
 	transform: scale(1.01,1.01);
 	transition: 0.5s;
+}
+
+.card__productos--titulos{
+	text-align: left;
+	text-transform: capitalize;
+	font-family: $tipografiaProductos;
+	font-size: 1em;
+	font-weight: 700;
+}
+.modal__productos--titulos{
+	font-size: 1.5em;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: 400;
+}
+.productos--background{
+	background-color: #F5F4F4;
+}
+
+.btn-productos{
+	background-color: #877D78;
+	color: white;
+	font-family: $tipografiaProductos;
 }

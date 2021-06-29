@@ -1,40 +1,13 @@
 /*index*/
-.index__main--height{
-	height: 86vh;
+.index__title{
+	text-align: center;
+	letter-spacing: 5px;
 }
-
-@media only screen and (min-width: 410px){
-	.index__main--height{
-		height: auto;
-	}
-}
-
-.index__carrousel--margin{
-	margin: 10px 20px;
-}
-
-/* titulos */
-h1, h2,{
-	font-family: $tipografiaTitulos;
-	font-size: 1.2em;
-	text-align: left;
-}
-h3{
-	font-family: $tipografiaTitulos;
-	font-size: 1.4em;
-	text-transform: capitalize;
-	text-align: left;
-	font-weight: 600;
-	color: $colorFooter
-}
-
-/* decoracion de parrafos */
-.decoration__p{
-	font-family: $tipografiaTitulos;
-	font-weight: 600;
-	font-size: 1.2em;
-	color: $colorFooter;
-	text-transform: capitalize;
+.index__img--grid{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-rows: repeat(2,1fr);
+	justify-items: center;
 }
 
 /* pagina error 404 */
@@ -64,6 +37,38 @@ h3{
 	}
 }
 
+/* contacto */
+.contacto--background{
+	background-color: #F5F4F4;
+}
 
+.contacto__form--titulo{
+	font-size: 1.8em;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: 400;
+	color: #D9B5A0;
+}
+/* titulos */
+h1, h2,{
+	font-family: $tipografiaTitulos;
+	font-size: 1.7em;
+}
+h3{
+	font-family: $tipografiaTitulos;
+	font-size: 1.4em;
+	text-transform: capitalize;
+	text-align: left;
+	font-weight: 600;
+}
+
+/* decoracion de parrafos */
+.decoration__p{
+	font-family: $tipografiaTitulos;
+	font-weight: 400;
+	font-size: 1.2em;
+	color: black;
+	text-transform: capitalize;
+}
 
 
