@@ -58,59 +58,52 @@
 	<!-- termina nav -->
 	</header>
 	<main>
-		<h1 class="m-3">Sobre nosotros</h1>
-	<!--inicia accordion quienes somos -->
-		<div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          ¿Qué es Galis?
-        </button>
-      </h2>
-    </div>
+		<h1 class="contacto__form--titulo mt-4">Quienes somos!</h1>
+		<section class="nosotros--grid">
+			<div id="carouselExampleControls" class="carousel slide m-4" data-ride="carousel">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="../recursos/valentinagalis.png" class="img-fluid" alt="Valentina, creadora de galis">
+				  </div>
+				  <div class="carousel-item">
+					<img src="../recursos/mariafernandagalis.png" class="img-fluid" alt="Maria fernanda, vendedora galis">
+				  </div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Next</span>
+				</a>
+			</div>
+			<article class="m-3 nosotros--article">
+				<p >Galis es una tienda de cosméticos naturales en Colombia que ofrece un portafolio de los mejores productos hechos de manera artesanal. Hemos reemplazado cada producto comercial de tu rutina de belleza y cuidado personal por uno 100% natural, garantizando la salud de tu piel y tu cabello al ser una marca libre de químicos. Tenemos distribuidores autorizados en las ciudades principales del país, dispuestos a ayudarte y a resolver todas tus dudas. <em>Galis cuida de ti y de los que amas!</em></p>
+				<p class="decoration__p mt-4">5 cosas que debes saber!</p>
+				<ul>
+					<li class="ml-3 mb-2">Somos una marca comprometida con el medio ambiente, por lo que estamos trabajando en erradicar el plástico de todos nuestros envases.</li>
+					<li class="ml-3 mb-2">El servicio es un componente vital de tu experiencia, en nuestras líneas de atención siempre serán respondidas tus dudas con el mayor de los gustos. </li>
+					<li class="ml-3 mb-2">Somos una marca libre de crueldad animal, todas nuestras materias primas son de alta calidad y de origen vegetal.</li>
+					<li class="ml-3 mb-2">Queremos que hagas parte de esta familia, por eso acceder a nuestro beneficio “mayoristas” es tan sencillo y nuestros margenes de ganancia son tan buenos. ¿Qué esperas para unirte?</li>
+					<li class="ml-3 mb-2">¡Recuerda que el secreto de la belleza es ser tu misma! </li>
+        		</ul>
+			</article>
+		</section>
 
-    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-       Galis es una tienda de cosméticos naturales en Colombia que ofrece un portafolio de los mejores productos hechos de manera artesanal. Hemos reemplazado cada producto comercial de tu rutina de belleza y cuidado personal por uno 100% natural, garantizando la salud de tu piel y tu cabello al ser una marca libre de químicos. Tenemos distribuidores autorizados en las ciudades principales del país, dispuestos a ayudarte y a resolver todas tus dudas.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          5 cosas que debes saber!
-        </button>
-      </h2>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div class="card-body">
-        <ul>
-        	<li class="ml-3">Somos una marca comprometida con el medio ambiente, por lo que estamos trabajando en erradicar el plástico de todos nuestros envases.</li>
-        	<li class="ml-3">El servicio es un componente vital de tu experiencia, en nuestras líneas de atención siempre serán respondidas tus dudas con el mayor de los gustos. </li>
-        	<li class="ml-3">Somos una marca libre de crueldad animal, todas nuestras materias primas son de alta calidad y de origen vegetal.</li>
-        	<li class="ml-3">Queremos que hagas parte de esta familia, por eso acceder a nuestro beneficio “mayoristas” es tan sencillo y nuestros margenes de ganancia son tan buenos. ¿Qué esperas para unirte?</li>
-        	<li class="ml-3">¡Recuerda que el secreto de la belleza es ser tu misma! </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-	<!-- cierra accordion quienes somos -->
-	<h2 class="m-3">Preguntas frecuentes</h2>
+	<h2 class="contacto__form--titulo m-3">Preguntas frecuentes</h2>
 	<!-- inicia accordion preguntas frecuentes -->
-		<div class="card">
+		<div class="card nosotros--acordion">
 		    <div class="card-header" id="headingFive">
 		      <h2 class="mb-0">
-		        <button class="btn btn-link btn-block text-left collapsed" id="mayoristas" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+		        <button class="btn  btn-block text-center collapsed" id="mayoristas" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
 		          ¿Cómo accedo al beneficio "Mayoristas"?
 		        </button>
 		      </h2>
 		    </div>
 		    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
 		      <div class="card-body">
-		         Según tu ubicación se verificará disponibilidad del cupo de distribución y posteriormente se debe realizar una compra inicial de $150.000. A partir de la segunda compra no habrá monto mínimo para acceder a los precios especiales, todos los precios para mayoristas están en nuestra sección de <a href="productos/index.html">productos.</a> 
+		         Queremos que hagas parte de esta familia, por eso acceder a nuestro benrficio de mayoristas es tan facil! Según tu ubicación se verificará disponibilidad del cupo de distribución, posteriormente se debe realizar una compra inicial de $150.000. A partir de la segunda compra no habrá monto mínimo para acceder a los precios especiales, todos los precios para mayoristas están en nuestra sección de <a href="productos/index.html">productos.</a>  En Galis te ofrecemos la oportunidad de iniciar tu propio emprendimiento y obtener ganancias extra.
 		      </div>
 		    </div>
 		  </div>
@@ -118,7 +111,7 @@
 		  <div class="card">
 		    <div class="card-header" id="headingFour">
 		      <h2 class="mb-0">
-		        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+		        <button class="btn  btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
 		          ¿Caducan los productos de cosmética natural?
 		        </button>
 		      </h2>
@@ -133,7 +126,7 @@
 		  <div class="card">
 		    <div class="card-header" id="headingSix">
 		      <h2 class="mb-0">
-		        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+		        <button class="btn btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
 		          ¿Cuáles son las principales ventajas de usar cosmética natural sobre la que contiene ingredientes sintéticos?
 		        </button>
 		      </h2>
@@ -147,7 +140,7 @@
 		  <div class="card">
 		    <div class="card-header" id="headingSeven">
 		      <h2 class="mb-0">
-		        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+		        <button class="btn btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
 		         ¿Cómo debo conservar la cosmética natural para que no se descomponga?
 		        </button>
 		      </h2>
