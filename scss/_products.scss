@@ -1,13 +1,4 @@
 /* index productos */ 
-.main__productos--height{
-	height: auto;
-}
-
-@media only screen and(min-width: 1000px){
-	.main__productos--height{
-		height: 80vh;
-	}
-}
 
 .card__productos--animaocion:hover{
 	transform: scale(1.01,1.01);
